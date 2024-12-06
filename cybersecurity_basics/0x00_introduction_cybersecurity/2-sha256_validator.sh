@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $1; read -p "Enter file to check: " file; sha256sum -c $file
+echo "$1" | sha256sum --check --status <(echo "$2  $1") && echo "$1: OK" || echo "$1: FAIL"
