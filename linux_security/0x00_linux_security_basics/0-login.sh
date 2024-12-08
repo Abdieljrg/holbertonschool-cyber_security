@@ -1,0 +1,2 @@
+#!/bin/bast
+sudo last
