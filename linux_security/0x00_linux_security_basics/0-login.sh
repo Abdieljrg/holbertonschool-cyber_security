@@ -1,2 +1,2 @@
 #!/bin/bast
-sudo last
+sudo last -F -5
