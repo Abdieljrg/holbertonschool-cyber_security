@@ -73,4 +73,35 @@ These technologies reflect a modern, scalable, and flexible approach to web appl
 
 ## 4. Tools and Methodology Used
 
-The following tools and methods were employed to gather the information documented in this re
+The following tools and methods were employed to gather the information documented in this report:
+
+1. **Shodan**:
+   - Shodan is a search engine that allows users to discover devices, servers, and services exposed to the internet.
+   - The following Shodan queries were used to gather IP ranges, hostnames, and technologies:
+     ```bash
+     shodan search "holbertonschool.com"
+     shodan search "hostname:holbertonschool.com"
+     shodan search "org:Amazon AWS"
+     ```
+2. **Passive Reconnaissance**:
+   - This approach ensured that no direct interaction or probing of the servers occurred, minimizing the risk of detection or disruption.
+3. **Data Analysis**:
+   - Data retrieved from Shodan, such as `product`, `http.html`, and `ssl.cert` metadata, was analyzed to identify technologies and frameworks.
+4. **Markdown Documentation**:
+   - This report was prepared in Markdown format to ensure a clean, structured, and easily shareable presentation of findings.
+
+---
+
+## 5. Observations and Findings
+
+1. The **holbertonschool.com** domain relies heavily on **Amazon AWS** for its hosting infrastructure. AWS provides scalability and reliability, which are ideal for supporting educational platforms.
+2. Modern frontend frameworks like **React.js** and **Bootstrap** are used for building an interactive and responsive user interface on the main website.
+3. The blog subdomain uses **WordPress**, a common choice for blogs, combined with **Apache** and **PHP** to manage content and serve pages.
+4. The API subdomain uses a combination of **Express.js** and **Nginx**, highlighting a microservice-oriented architecture.
+5. All identified IP addresses are located in **Ashburn, Virginia**, a common AWS hosting region.
+
+---
+
+## 6. Conclusion
+
+This report provides a comprehensive analysis of the **holbertonschool.com** domain and its subdomains. Through passive reconnaissance using **Shodan**, IP ranges, hosting providers, and technologies were successfully identified. The findings highlight the domain's reliance on **Amazon AWS**, modern frontend frameworks, and a well-structured backend infrastructure.
