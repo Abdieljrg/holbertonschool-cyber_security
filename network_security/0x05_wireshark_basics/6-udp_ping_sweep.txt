@@ -1,1 +1,1 @@
-udp udp.dstport
+udp udp.dstport == 1
