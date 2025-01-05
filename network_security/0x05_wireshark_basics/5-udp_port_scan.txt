@@ -1,1 +1,1 @@
-udp or icmp.type == 3
+udp or (icmp.type == 3 or icpm.code == 3)
