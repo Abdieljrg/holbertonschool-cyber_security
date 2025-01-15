@@ -1,3 +1,1 @@
-GET /ticket?id=5 HTTP/1.1
-Host: web0x00.hbtn
-Cookie: session=.eJyrVnJMyc3MK1ayKikqTdVRci4tLsnPTS0CCqQl5hQDRYJLCwryi0oQAqm5iZk5SlZKiSCNDuWpSQYVBgZ6GUkleUo6SpkpSlaGOkqlxalFeYm5qTBlSrUAiaIjkA.Z4cN0g.qyYy3H82lEoZyH_YGN_QSD5sahI
+GET /ticket?id=5 HTTP/1.1 Host: web0x00.hbtn Cookie: session=.eJyrVnJMyc3MK1ayKikqTdVRci4tLsnPTS0CCqQl5hQDRYJLCwryi0oQAqm5iZk5SlZKiSCNDuWpSQYVBgZ6GUkleUo6SpkpSlaGOkqlxalFeYm5qTBlSrUAiaIjkA.Z4cN0g.qyYy3H82lEoZyH_YGN_QSD5sahI
